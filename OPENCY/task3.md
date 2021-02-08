@@ -1,4 +1,7 @@
+
 一个图片逐渐过渡到另一个图片的视频
+
+```python
 import numpy as np
 import cv2 as cv
 img1 = cv.imread("C:/Users/Vad/Desktop/src5.jpg")
@@ -15,3 +18,5 @@ for i in range(0, 100):
     cv.waitKey(1)
 cv.waitKey(0)
 cv.destroyAllWindows()
+```
+
